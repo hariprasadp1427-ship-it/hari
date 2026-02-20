@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contener {
+    background-image: url(contact-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+.navbar .nav-link {
+    color: black;
+}
+.navbar .navbar-brand {
+    color: black;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav li {
+    padding: 5px;
+    width: 250px;
+}
+.overlay-text {
+    margin-left: 180px;    
+    font-size:xx-large;  
+    color:yellow;         
+    font-weight:bolder;
+    margin-top: 250px;
+    font-style: italic;    
+}
+.para {
+    margin-left: 300px;
+    font-size: xx-large;
+    color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+.button-wrapper {
+    text-align: center; 
+}
+
+.custom-btn {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-right: 80px;  
+}
+.contener2 {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin-top: -15px;
+}
+.cont1{
+    font-size: xx-large;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  font-size:xx-large ;
+}
+.cont3 a {
+    text-decoration: none;
+}
+.contener2 {
+    width: 100%;
+}
+.section3{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+
+@media (max-width: 992px) {
+    .overlay-text {
+        margin-left: 120px;  
+        margin-top: 180px;
+        font-size:x-large;
+        font-style: italic;
+    }
+}
+@media (max-width: 576px) {
+    .overlay-text {
+        margin-left: 20px;  
+        margin-top: 150px;
+        font-size:17px; 
+        width: 90%;
+        text-align: center;
+        font-style: italic;
+    }
+}
+@media (max-width: 992px) {
+    .para{
+        margin-left: 200px;
+        margin-top: 20px;
+        font-size: x-large;
+        font-style: italic;
+    } 
+}
+@media (max-width: 576px){
+    .para{
+        margin-left: 20px;  
+        margin-top: 20px;
+        font-size:17px; 
+        width: 90%;
+        text-align: center;
+        font-style: italic;
+    }
+}
+@media (max-width: 992px) {
+    .custom-btn {
+        margin-left:90px;
+        margin-top: 20px;
+        font-size: x-large;
+        font-style: italic;
+        width: 150px;
+    } 
+}
+@media (max-width: 576px) {
+    .custom-btn {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 576px) {
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    font-weight: bold;
+  }
+}
